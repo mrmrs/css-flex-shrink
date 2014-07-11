@@ -26,7 +26,7 @@ or download the css on github and include in your project.
 .fls-i { flex-shrink: inherit; }
 
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fls-1-ns { flex-shrink: 1; }
   .fls-2-ns { flex-shrink: 2; }
   .fls-3-ns { flex-shrink: 3; }
@@ -35,7 +35,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fls-1-m { flex-shrink: 1; }
   .fls-2-m { flex-shrink: 2; }
   .fls-3-m { flex-shrink: 3; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .fls-i-m { flex-shrink: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .fls-1-l { flex-shrink: 1; }
   .fls-2-l { flex-shrink: 2; }
   .fls-3-l { flex-shrink: 3; }
