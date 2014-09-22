@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-flex-shrink)
 ## File Size
 
 798B flex-shrink.css
-613B flex-shrink.min.css
+613B flex-shrink.min.css 
+179B minified and gzipped
 
 ## The Code
 ```
