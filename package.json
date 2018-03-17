@@ -1,7 +1,7 @@
 {
   "name": "css-flex-shrink",
   "style": "flex-shrink.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "http://github.com/mrmrs/css-flex-shrink",
   "description": "Css module of single purpose classes for flex shrink",
   "keywords": [
