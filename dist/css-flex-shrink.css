@@ -1,30 +1,85 @@
-/*
-   FLEX SHRINK
-*/
-.fls-1 { -ms-flex-negative: 1; flex-shrink: 1; }
-.fls-2 { -ms-flex-negative: 2; flex-shrink: 2; }
-.fls-3 { -ms-flex-negative: 3; flex-shrink: 3; }
-.fls-4 { -ms-flex-negative: 4; flex-shrink: 4; }
-.fls-i { -ms-flex-negative: inherit; flex-shrink: inherit; }
-@media screen and (min-width: 48em) {
- .fls-1-ns { -ms-flex-negative: 1; flex-shrink: 1; }
- .fls-2-ns { -ms-flex-negative: 2; flex-shrink: 2; }
- .fls-3-ns { -ms-flex-negative: 3; flex-shrink: 3; }
- .fls-4-ns { -ms-flex-negative: 4; flex-shrink: 4; }
- .fls-i-ns { -ms-flex-negative: inherit; flex-shrink: inherit; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .fls-1-m { -ms-flex-negative: 1; flex-shrink: 1; }
- .fls-2-m { -ms-flex-negative: 2; flex-shrink: 2; }
- .fls-3-m { -ms-flex-negative: 3; flex-shrink: 3; }
- .fls-4-m { -ms-flex-negative: 4; flex-shrink: 4; }
- .fls-i-m { -ms-flex-negative: inherit; flex-shrink: inherit; }
-}
-@media screen and (min-width: 64em) {
- .fls-1-l { -ms-flex-negative: 1; flex-shrink: 1; }
- .fls-2-l { -ms-flex-negative: 2; flex-shrink: 2; }
- .fls-3-l { -ms-flex-negative: 3; flex-shrink: 3; }
- .fls-4-l { -ms-flex-negative: 4; flex-shrink: 4; }
- .fls-i-l { -ms-flex-negative: inherit; flex-shrink: inherit; }
+.fls-1 {
+  flex-shrink: 1;
 }
 
+.fls-2 {
+  flex-shrink: 2;
+}
+
+.fls-3 {
+  flex-shrink: 3;
+}
+
+.fls-4 {
+  flex-shrink: 4;
+}
+
+.fls-i {
+  flex-shrink: inherit;
+}
+
+@media screen and (width >= 48em) {
+  .fls-1-s {
+    flex-shrink: 1;
+  }
+
+  .fls-2-s {
+    flex-shrink: 2;
+  }
+
+  .fls-3-s {
+    flex-shrink: 3;
+  }
+
+  .fls-4-s {
+    flex-shrink: 4;
+  }
+
+  .fls-i-s {
+    flex-shrink: inherit;
+  }
+}
+
+@media screen and (width >= 48em) and (width <= 64em) {
+  .fls-1-m {
+    flex-shrink: 1;
+  }
+
+  .fls-2-m {
+    flex-shrink: 2;
+  }
+
+  .fls-3-m {
+    flex-shrink: 3;
+  }
+
+  .fls-4-m {
+    flex-shrink: 4;
+  }
+
+  .fls-i-m {
+    flex-shrink: inherit;
+  }
+}
+
+@media screen and (width >= 64em) {
+  .fls-1-l {
+    flex-shrink: 1;
+  }
+
+  .fls-2-l {
+    flex-shrink: 2;
+  }
+
+  .fls-3-l {
+    flex-shrink: 3;
+  }
+
+  .fls-4-l {
+    flex-shrink: 4;
+  }
+
+  .fls-i-l {
+    flex-shrink: inherit;
+  }
+}
