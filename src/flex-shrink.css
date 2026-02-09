@@ -9,7 +9,7 @@
 .fls-i { flex-shrink: inherit; }
 
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .fls-1-s { flex-shrink: 1; }
   .fls-2-s { flex-shrink: 2; }
   .fls-3-s { flex-shrink: 3; }
@@ -18,7 +18,7 @@
 
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .fls-1-m { flex-shrink: 1; }
   .fls-2-m { flex-shrink: 2; }
   .fls-3-m { flex-shrink: 3; }
@@ -26,7 +26,7 @@
   .fls-i-m { flex-shrink: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .fls-1-l { flex-shrink: 1; }
   .fls-2-l { flex-shrink: 2; }
   .fls-3-l { flex-shrink: 3; }
