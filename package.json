@@ -1,38 +1,44 @@
 {
   "name": "css-flex-shrink",
-  "style": "flex-shrink.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-flex-shrink",
-  "description": "Css module of single purpose classes for flex shrink",
+  "version": "2.0.0",
+  "description": "Functional CSS for flex-shrink",
+  "style": "dist/flex-shrink.css",
+  "main": "dist/flex-shrink.css",
+  "exports": {
+    ".": "./dist/flex-shrink.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "flex-shrink"
+    "flex-shrink",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-flex-shrink": {
+  "homepage": "https://github.com/mrmrs/css-flex-shrink",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-flex-shrink.git"
+    "url": "https://github.com/mrmrs/css-flex-shrink.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-flex-shrink/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-flex-shrink/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
